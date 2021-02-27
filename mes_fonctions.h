@@ -13,6 +13,7 @@
 #define DATA_PACKET_SIZE 516
 #define ACK_PACKET_SIZE 4
 #define MAX_TRIES 65536
+#define ERR_MES_ARG "Not enough arguments \n"
 int connectTo(char *,char *);
 void sendRRQ(char*,int,int);
 void sendWRQ(char*,int,int);
